@@ -5,6 +5,15 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
+import video1 from "../assets/video1.mp4";
+import image1 from "../assets/image1.jpg";
+import image2 from "../assets/image2.jpg";
+import image3 from "../assets/image3.jpg";
+import image4 from "../assets/image4.png";
+import image5 from "../assets/image5.png";
+import image6 from "../assets/image6.png";
+import image7 from "../assets/image7.png";
+
 import {
   Menu,
   X,
@@ -31,6 +40,8 @@ export default function LinisRefillWebsite() {
     setIsMenuOpen(false);
     document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
   };
+
+  const images = [image1, image2, image3, image4, image5, image6, image7];
 
   return (
     <div
@@ -174,7 +185,7 @@ export default function LinisRefillWebsite() {
         {/* Video Background */}
         <div className="absolute inset-0 w-full h-full z-0">
           <video
-            src="./src/assets/video1.mp4"
+            src={video1}
             autoPlay
             muted
             loop
@@ -367,13 +378,13 @@ export default function LinisRefillWebsite() {
             className="max-w-4xl"
           >
             {[
-              "./src/assets/image1.jpg",
-              "./src/assets/image2.jpg",
-              "./src/assets/image3.jpg",
-              "./src/assets/image4.png",
-              "./src/assets/image5.png",
-              "./src/assets/image6.png",
-              "./src/assets/image7.png",
+              image1,
+              image2,
+              image3,
+              image4,
+              image5,
+              image6,
+              image7,
             ].map((img, index) => (
               <SwiperSlide
                 key={index}
