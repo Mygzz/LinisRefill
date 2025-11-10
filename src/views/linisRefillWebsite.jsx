@@ -5,7 +5,10 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import video1 from "../assets/video1.mp4";
+import logo from "../assets/without_bg.png";
+
+import Video1 from "../assets/video1.mp4";
+
 import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
 import image3 from "../assets/image3.jpg";
@@ -61,7 +64,7 @@ export default function LinisRefillWebsite() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <img
-                src="./src/assets/without_bg.png"
+                src={logo}
                 alt="logo"
                 className={`w-24 h-24 ${
                   isDarkMode ? "filter brightness-0 invert" : ""
@@ -185,7 +188,7 @@ export default function LinisRefillWebsite() {
         {/* Video Background */}
         <div className="absolute inset-0 w-full h-full z-0">
           <video
-            src={video1}
+            src={Video1}
             autoPlay
             muted
             loop
