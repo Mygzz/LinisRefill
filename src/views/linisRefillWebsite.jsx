@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 import logo from "../assets/without_bg.png";
 
-import Video1 from "../assets/video1.mp4";
+import Video1 from "../assets/Video1.mp4";
 
 import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
