@@ -686,12 +686,12 @@ export default function LinisRefillWebsite() {
             <div className="text-center p-6 bg-blue-50 rounded-xl">
               <Phone className="h-8 w-8 mx-auto mb-3 text-blue-600" />
               <h3 className="font-semibold mb-2 text-gray-900">Phone</h3>
-              <p className="text-gray-600">+63 XXX XXX XXXX</p>
+              <p className="text-gray-600">+63 923 489 6434</p>
             </div>
             <div className="text-center p-6 bg-blue-50 rounded-xl">
               <Mail className="h-8 w-8 mx-auto mb-3 text-blue-600" />
               <h3 className="font-semibold mb-2 text-gray-900">Email</h3>
-              <p className="text-gray-600">hello@linisrefill.ph</p>
+              <p className="text-gray-600">LinisRefillPH@gmail.com</p>
             </div>
             <div className="text-center p-6 bg-blue-50 rounded-xl">
               <Facebook className="h-8 w-8 mx-auto mb-3 text-blue-600" />
